@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace vveennyy
 {
@@ -9,6 +6,13 @@ namespace vveennyy
     {
         static void Main(string[] args)
         {
+            //создание объекта класса
+            Account account = new Account();
+            //заполнение данными
+            account.DataInput();
+            //вывод на экран
+            Console.WriteLine(account.ToString());
+            Console.ReadKey();
         }
     }
 }
